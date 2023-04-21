@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;300;500;900&display=swap');
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-weight: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin: 0;
+  padding: 0;
+  /* height: 100vh; */
+  background: #1f2125;;
+   /* #1f2125; */
+
+  min-width: 1240px;
+  overflow-x: hidden;
+}
+/* body::-webkit-scrollbar {
+  overflow-y: auto;
+  overflow-x: auto;
+  height: 0px;
+  width: 0px;
+  display: scroll;
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+} */
+@media screen and (min-width:600px) {
+  .col-md-2{
+    max-width: 15rem !important ;
+  }
+  .col-lg-12{
+    flex:60 0 83.333333%;
+    max-width:calc(100vw - 15rem) !important;
+  }
+}
+/* @media screen and (max-width:1310px) {
+  .table-responsive{
+    height: 60vh !important;
+  }
+ 
+} */
+/* @media screen and (min-width:1510px) {
+  .table-responsive{
+    height: 75vh !important;
+  }
+ 
+} */
+/* @media (min-width: 1000px) and (max-width: 1468px) {
+  body {
+    
+  height: 38em;
+  overflow-y: hidden;
+  } 
+} */
+  /* .sidebar-admin-container {
+  width: 13em;
+  }  
+   .col-lg-10{
+    position:absolute;
+    left: 223px;
+  } */
+  /* .row{
+    margin-right: -226px;
+    margin-left: -15px;
+  }  */
+/* @media (min-width: 1600px) and (max-width: 2868px) {
+  .sidebar-admin-container {
+      width: 14em;
+      }
+    } */
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}

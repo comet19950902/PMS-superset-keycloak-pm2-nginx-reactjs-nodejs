@@ -1,0 +1,235 @@
+.assets-chart-box {
+  box-shadow: 21px 25px 43px hsl(0deg 0% 0% / 60%),
+    2px 2px 39px hsl(0deg 0% 100% / 13%);
+  border-radius: 20px;
+}
+
+.transationdata select {
+  background: transparent;
+  color: white;
+  font-family: 'Inter', sans-serif;
+  /* font-family: 'Neue Haas Grotesk Display Pro'; */
+  font-size: 25px;
+  border: none;
+  margin: 30px 30px 0px;
+  font-weight: 300;
+}
+/* .table::-webkit-scrollbar {
+  overflow-y: auto;
+  overflow-x: auto;
+  height: 4px;
+  width: 4px;
+  display: scroll;
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+} */
+.transationdata select:focus-visible {
+  outline: none;
+}
+
+select.days option {
+  background: #222429;
+
+}
+
+.assets-chart-wrap h5 {
+  margin: 10px 0;
+  font-size: 19px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+.assets-chart-wrap h5 a {
+  margin-left: 10px;
+  color: #ffff;
+  opacity: 0.6;
+  transition: all 0.5s;
+}
+
+.assets-chart-wrap h5 a:hover {
+  opacity: 1;
+
+}
+
+.chart-box-item {
+  border-radius: 20px;
+  background: rgb(0 0 0 / 18%);
+  padding: 27px 35px;
+  position: relative;
+  margin: 15px 0;
+}
+
+.chart-box-item h6 {
+  font-size: 14px;
+  color: #ffffff;
+  font-weight: 500;
+  letter-spacing: 0.8px;
+  margin-bottom: 12px;
+  display: flex;
+}
+
+.chart-box-item h4 {
+  font-size: 36px;
+  color: #ffffff;
+  margin: 0;
+  font-weight: 300;
+  letter-spacing: 1.8px;
+}
+
+.chart-box-item h6 span {
+  font-size: 12px;
+  opacity: 0.75;
+  font-weight: 300;
+
+}
+
+.chart-box-item a {
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+  box-shadow: 0 3px 6px rgb(0 0 0 / 16%), -7px -4px 31px hsl(0deg 0% 100% / 12%),
+    7px 10px 18px hsl(0deg 0% 0% / 56%);
+  width: 40px;
+  height: 40px;
+  background: hsl(218deg 9% 18% / 69%);
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #00a7ff;
+  font-size: 22px;
+}
+
+.asset-pills-wrap {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2%;
+}
+
+.btn-transaction {
+  max-width: 25%;
+  margin-left: auto;
+  font-size: 18px;
+  letter-spacing: 0.8px;
+
+}
+
+/* ::-webkit-scrollbar {
+  width: 8px;
+  display: visible;
+} */
+
+/* Track */
+/* ::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+} */
+
+/* Handle */
+/* ::-webkit-scrollbar-thumb {
+  background: grey;
+  border-radius: 10px;
+} */
+
+/* Handle on hover */
+/* ::-webkit-scrollbar-thumb:hover {
+  background: darkgrey;
+} */
+
+.asset-pills.nav-pills .nav-link.active,
+.asset-pills.nav-pills .show>.nav-link {
+  background: rgb(41 44 49 / 67%);
+  box-shadow: 0 3px 6px hsl(0deg 0% 0% / 16%),
+    -7px -4px 31px hsl(0deg 0% 100% / 12%), 7px 10px 18px hsl(0deg 0% 0% / 56%);
+  transition: all 0.5s;
+
+}
+
+.asset-pills .nav-link {
+  font-size: 15px;
+  letter-spacing: 0.8px;
+  padding: 15px 22px;
+  display: block;
+  font-weight: 500;
+  border-radius: 7px;
+  background: hsl(0deg 0% 0% / 18%);
+  cursor: pointer;
+  color: #fff;
+  margin-right: 40px;
+  transition: all 0.5s;
+}
+
+.asset-pills .nav-link span {
+  color: #0f8bfe;
+  margin-left: 24px;
+  font-weight: 400;
+}
+
+.assets-pilll-box {
+  display: flex;
+  padding: 0;
+  margin: 0 0 80px 0;
+}
+
+.assets-pilll-box li {
+  max-width: 150px;
+  height: 60px;
+  width: 100%;
+  background: hsl(218deg 9% 18% / 67%);
+  box-shadow: 0 3px 6px hsl(0deg 0% 0% / 16%),
+    -7px -4px 31px hsl(0deg 0% 100% / 12%), 7px 10px 18px rgb(0 0 0 / 56%);
+  margin-right: 44px;
+  border-radius: 18px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.assets-pilll-box li span {
+  display: block;
+  margin-right: 20px;
+}
+
+.assets-pilll-box li h6 {
+  font-size: 18px;
+  color: #ffffff;
+  font-weight: 300;
+  margin-bottom: 5px;
+}
+
+.assets-pilll-box li h4 {
+  font-size: 30px;
+  color: #ffffff;
+  font-weight: 500;
+  margin: 0;
+  display: flex;
+  align-items: flex-end;
+}
+
+.assets-pilll-box li h4 i {
+  font-size: 18px;
+  color: #52acff;
+  font-style: normal;
+  margin-left: auto;
+}
+
+.assets-pilll-box li div {
+  width: 100%;
+}
+
+.assets-pilll-info-box {
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 3%;
+  padding-bottom: 1%;
+  border: 1px solid hsl(0deg 0% 44% / 59%);
+  border-radius: 44px;
+  width: 96%;
+}
+
+.assets-pilll-info-box .assets-table-item:nth-last-child(1) {
+  margin: 0;
+}

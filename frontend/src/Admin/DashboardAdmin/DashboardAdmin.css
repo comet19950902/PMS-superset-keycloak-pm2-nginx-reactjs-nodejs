@@ -1,0 +1,1951 @@
+.maindash {
+    background: #222429;
+    border-radius: 44px;
+    margin: 0px 0px 57px;
+    box-shadow: 3px 3px 60px rgb(0 0 0 / 16%), 21px 25px 43px rgb(0 0 0 / 60%), 2px 2px 39px rgb(0 0 0 / 13%);
+}
+
+.transationdata select:focus-visible {
+    outline: none;
+}
+
+.namePortData {
+    color: white;
+    
+}
+
+.namePortData:hover {
+    color: #FFC107;
+}
+
+.dashinfo span {
+    font-family: 'Inter', sans-serif;
+    /* font-family: 'Neue Haas Grotesk Display Pro'; */
+    color: white;
+    font-size: 30px;
+    margin-bottom: 22px;
+    font-weight: 400;
+    display: block;
+}
+
+
+.dah-img {
+    width: 5%;
+    height: 3%;
+}
+
+.maindash {
+    padding-top: 4%;
+    padding-left: 4%;
+    height: 20%;
+}
+
+.dashinfo h4 {
+    font-family: 'Inter', sans-serif;
+    /* font-family: 'Neue Haas Grotesk Display Pro'; */
+    font-size: 35px;
+    color: white;
+}
+
+.dashinfo p {
+    color: #00FF03;
+    font-size: 24px;
+    font-family: 'Inter', sans-serif;
+
+    /* font-family: 'Neue Haas Grotesk Display Pro'; */
+    margin: 0;
+    font-weight: 300;
+}
+
+.name-assets span {
+    width: 3.5vh;
+    height: 3.5vh;
+    border-radius: 100%;
+    margin-right: 12%;
+    margin-top: 3.5%;
+    position: relative;
+    background: #e92a2a;
+    box-shadow: 0 0 0 4px #222429, 0 0 0 7px #e92a2a;
+}
+
+
+.dashinfo p svg {
+    margin-left: 10px;
+    width: 20px;
+}
+
+.heading.day {
+    justify-content: flex-end;
+}
+
+.heading.day {
+    justify-content: flex-end;
+}
+
+.mainmyassets .col-lg-2 {
+    padding: 0;
+}
+
+.mainmyassets .col-lg-10 {
+    padding: 0;
+    margin-left: 8%;
+}
+
+.heading.day option {
+    font-size: 16px;
+}
+
+.maindashinfo {
+    margin-left: 10%;
+}
+
+.maindashboard aside {
+    max-width: 100% !important;
+}
+
+.btnassets {
+    bottom: 0;
+    width: 24%;
+
+    height: 30%;
+    margin-left: 1%;
+}
+
+/* .dashboard.maindashboard {
+    position: fixed;
+} */
+
+.dashheading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px 30px 0px;
+}
+
+.dashheading h3 {
+    font-size: 28px;
+    color: white;
+    font-family: 'Inter', sans-serif;
+
+    /* font-family: 'Neue Haas Grotesk Display Pro'; */
+}
+
+.dashheading .heading.day {
+    margin: 0px 0px;
+}
+
+.maindashtable {
+    background: #222429;
+    border-radius: 44px;
+    height: 50%;
+    width: 100%;
+    margin-left: -10%;
+    box-shadow: 18px 25px 34px rgb(0 0 0 / 73%), -5px -5px 26px hsl(247deg 4% 55% / 26%);
+}
+
+/* ::-webkit-scrollbar {
+    width: 4px;
+    display: visible !important;
+    height: 4px;
+} */
+
+
+/* Track */
+/* ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+} */
+
+/* Handle */
+/* ::-webkit-scrollbar-thumb {
+    background: grey;
+    border-radius: 10px;
+} */
+
+/* Handle on hover */
+/* ::-webkit-scrollbar-thumb:hover {
+    background: lightgrey;
+} */
+
+.maindashtable .react-bootstrap-table-pagination-list.col-md-6.col-xs-6.col-sm-6.col-lg-6 {
+    display: table-cell;
+}
+
+.maindashtable .App {
+    padding: 30px;
+}
+
+canvas {
+    object-fit: none;
+    object-position: top;
+    /* padding-bottom: 0%; */
+    /* padding-bottom: 30px;   */
+}
+
+/* #iframe_container {
+    background-color: #ffffff;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    overflow: visible;
+  } */
+
+/* #myiframe {
+    overflow: scroll;
+    border: 0;
+    width: 100%;
+    height: 100%;
+    transform: scale(1);
+    -ms-transform-origin: 0 0;
+    -moz-transform-origin: 0 0;
+    -o-transform-origin: 0 0;
+    -webkit-transform-origin: 0 0;
+    transform-origin: 0 0;
+  } */
+
+.modal-body {
+    position: relative;
+    overflow-y: auto;
+    max-height: 100%;
+    width: 100%;
+    padding: 15px;
+}
+
+.modal-dialog {
+    max-width: 1200px;
+}
+
+
+@media only screen and (min-width:0px) and (max-width: 990px) {
+    #response {
+        padding-left: 40%;
+        margin-left: -23%;
+        margin-right: 0%;
+    }
+
+    #above {
+        margin-left: -15%;
+    }
+
+    #days {
+        display: none;
+    }
+
+    #status {
+        margin-left: 3%;
+    }
+
+    #new {
+        margin-top: -24%;
+    }
+}
+
+@media only screen and (min-width:950px) {
+    #status {
+        margin-left: 10%;
+    }
+}
+
+.search_label {
+    color: white
+}
+
+label {
+    color: white
+}
+
+.MuiInput-root:after {
+    border-bottom: 2px solid grey
+}
+
+.MuiInput-root:before {
+    border-bottom: 2px solid white
+}
+
+.MuiInput-root.before:hover {
+    border-bottom: 2px solid white
+}
+
+.MuiOutlinedInput-root {
+    color: white;
+
+}
+
+.MuiInputLabel-root.Mui-focused {
+    color: white
+}
+.MuiAutocomplete-root .MuiOutlinedInput-root{
+    padding-top: 5px !important;
+}
+.MuiInput-root {
+    color: white
+}
+
+.MuiOutlinedInput-root {
+    color: white,
+}
+
+.MuiInput-underline {
+    border-bottom: 1px solid white
+}
+
+/* .MuiSvgIcon-root{
+             fill: white !important
+            } */
+
+.MuiSelect-icon {
+    fill: white !important
+}
+
+.MuiOutlinedInput-input {
+    color: white !important;
+     font-size: 14px !important ; 
+}
+
+.MuiOutlinedInput-notchedOutline {
+     /* border-color:hsl(0deg 0% 44% / 63%) !important;  */
+     height:32px ; 
+      border:unset !important; 
+}
+
+.MuiInputLabel-root {
+    color: white !important
+}
+
+/* .MuiOutlinedInput-root{
+               border-radius: 15px !important;
+           } */
+.MuiInput-input {
+    color: white !important;
+}
+
+.modal-content {
+    /* border-color: white; */
+    border: none;
+}
+
+.dropdown-item {
+    /* background-color: transparent !important; */
+    color: white;
+}
+
+.PhoneInputInput {
+    height: 40px !important;
+    margin-top: 0px !important;
+    margin-bottom: 0 !important;
+    font-size: 13px !important;
+    color:white;
+    border-radius: unset !important;
+    background-color: #222429 !important;
+    padding-left: 0 !important;
+}
+
+.PhoneInput {
+    border: 1px solid grey !important
+}
+
+.PhoneInput .PhoneInput--focus {
+    border: 1px solid #0F8BFE !important;
+}
+
+.PhoneInputCountry {
+    left: 8px !important;
+}
+
+#text-filter-column-asset_chain {
+    background-color: rgb(31, 33, 37) !important;
+    color: white !important;
+    font-size: 13px;
+    font-weight: 500;
+    height: 25px;
+    width: 130px;
+}
+
+.filter-label {
+    display: block;
+    color: white !important;
+    margin-top: 12px;
+}
+
+/* #text-filter-column-transaction_time{
+                background-color:#212529 !important;
+                color:white;
+            } */
+#number-filter-comparator-recieve_data {
+    background-color: rgb(31, 33, 37) !important;
+    color: white;
+    fill: white;
+    margin-right: 2rem;
+    margin-top: 2px;
+}
+
+#number-filter-column-recieve_data {
+    margin-left: 1rem;
+    background-color: rgb(31, 33, 37) !important;
+    color: white;
+    margin-bottom: 3px;
+    font-size: 13px;
+    font-weight: 500;
+    height: 25px;
+    width: 130px;
+}
+
+.number-filter {
+    display: flex !important;
+    flex-direction: row;
+}
+
+/* .filter-label{
+           margin-top:6px
+            } */
+
+#text-filter-column-cate_id {
+    background-color: rgb(31, 33, 37) !important;
+    color: white !important;
+    fill: white;
+    font-size: 13px;
+    font-weight: 500;
+    height: 25px;
+    width: 130px;
+}
+
+.date-filter {
+    display: flex !important;
+    margin-top: 2px;
+}
+
+#date-filter-column-transaction_time {
+    margin-left: 1rem;
+    background-color: rgb(31, 33, 37) !important;
+    color: white !important;
+    margin-top: 11px;
+    font-size: 13px;
+    color-scheme: light;
+    font-weight: 500;
+    height: 25px;
+    width: 136px;
+}
+
+#date-filter-comparator-transaction_time {
+    background-color: rgb(31, 33, 37) !important;
+    color: white;
+    fill: white;
+    /* margin-right:2rem; */
+    font-size: 13px;
+    font-weight: 500;
+    height: 25px;
+    padding-top: 2px;
+    color-scheme: light;
+    width: 65px;
+    margin-top: -1px;
+}
+
+#text-filter-column- {
+    background-color: rgb(31, 33, 37) !important;
+    color: white;
+    fill: white;
+}
+
+#text-filter-column-amount {
+    background-color: rgb(31, 33, 37)!important;
+    color: white;
+    fill: white;
+    width: 100px;
+    margin-right: 2rem;
+    font-size: 13px;
+    font-weight: 500;
+    height: 25px;
+    width: 130px;
+}
+
+#text-filter-column-comments {
+    background-color: rgb(31, 33, 37) !important;
+    color: white;
+    margin-top: 3px;
+    font-size: 13px;
+    font-weight: 500;
+    height: 25px;
+    width: 130px;
+}
+
+#text-filter-column-recieve_data {
+    background-color: rgb(31, 33, 37) !important;
+    color: white;
+    margin-top: 3px;
+    font-size: 13px;
+    font-weight: 500;
+    height: 25px;
+    width: 130px;
+}
+
+#text-filter-column-investment_name {
+    background-color: rgb(31, 33, 37) !important;
+    color: white;
+    font-size: 13px;
+    font-weight: 500;
+    height: 25px;
+    width: 130px;
+    text-align: center;
+    /* margin-left: 43%; */
+}
+#text-filter-column-current_nav{
+    background-color: rgb(31, 33, 37) !important;
+    color: white;
+    font-size: 13px;
+    font-weight: 500;
+    height: 25px;
+    width: 130px;
+    text-align: center;
+}
+#text-filter-column-current_value{
+    background-color: rgb(31, 33, 37) !important;
+    color: white;
+    font-size: 13px;
+    font-weight: 500;
+    height: 25px;
+    width: 130px;
+    text-align: center;
+}
+#text-filter-column-pnl{
+    background-color: rgb(31, 33, 37) !important;
+    color: white;
+    font-size: 13px;
+    font-weight: 500;
+    height: 25px;
+    width: 130px;
+    text-align: center;
+}
+#text-filter-column-investment_type {
+    background-color: rgb(31, 33, 37) !important;
+    color: white;
+    font-size: 13px;
+    font-weight: 500;
+    height: 25px;
+    width: 130px;
+}
+
+#text-filter-column-investment_value {
+    background-color: rgb(31, 33, 37) !important;
+    color: white;
+    font-size: 13px;
+    font-weight: 500;
+    height: 25px;
+    width: 130px;
+}
+
+#date-filter-column-date_of_investment {
+    background-color: rgb(31, 33, 37) !important;
+    color: white;
+    margin-left: 1rem;
+    margin-top: 11px;
+    font-size: 13px;
+    color-scheme: light;
+    font-weight: 500;
+    height: 25px;
+    width: 136px;
+}
+
+#date-filter-comparator-date_of_investment {
+    background-color: rgb(31, 33, 37) !important;
+    color: white;
+    fill: white;
+    /* margin-right:2rem; */
+    font-size: 13px;
+    font-weight: 500;
+    height: 25px;
+    padding-top: 2px;
+    width: 65px;
+    margin-top: -1px;
+}
+
+#date-filter-column-updated_date {
+    background-color:rgb(31, 33, 37) !important;
+    color: white;
+    margin-left: 1rem;
+    margin-top: 11px;
+    color-scheme: light;
+    font-size: 13px;
+    font-weight: 500;
+    height: 25px;
+    width: 136px;
+}
+
+#date-filter-comparator-updated_date {
+    background-color: rgb(31, 33, 37) !important;
+    color: white;
+    fill: white;
+    /* margin-right:2rem; */
+    font-size: 13px;
+    font-weight: 500;
+    height: 25px;
+    padding-top: 2px;
+    width: 65px;
+    margin-top: -1px;
+}
+
+#text-filter-column-symbol {
+    background-color: rgb(31, 33, 37) !important;
+    color: white;
+    width: 100px;
+    font-size: 13px;
+    font-weight: 500;
+    height: 25px;
+    width: 130px;
+}
+
+#text-filter-column-price {
+    background-color:rgb(31, 33, 37) !important;
+    color: white;
+    width: 100px;
+    font-size: 13px;
+    font-weight: 500;
+    height: 25px;
+    width: 130px;
+}
+
+#text-filter-column-side {
+    background-color: rgb(31, 33, 37) !important;
+    color: white;
+    width: 100px;
+    font-size: 13px;
+    font-weight: 500;
+    height: 25px;
+    width: 130px;
+}
+
+#text-filter-column-info {
+    background-color: rgb(31, 33, 37) !important;
+    color: white;
+    width: 100px;
+    font-size: 13px;
+    font-weight: 500;
+    height: 25px;
+    width: 130px;
+}
+
+#text-filter-column-comment {
+    background-color: rgb(31, 33, 37) !important;
+    color: white;
+    width: 100px;
+    font-size: 13px;
+    font-weight: 500;
+    height: 25px;
+    width: 130px;
+}
+
+#text-filter-column-cost {
+    background-color: rgb(31, 33, 37) !important;
+    color: white;
+    width: 100px;
+    font-size: 13px;
+    font-weight: 500;
+    height: 25px;
+    width: 130px;
+}
+
+#date-filter-column-timeStamp {
+    background-color: rgb(31, 33, 37) !important;
+    color: white;
+    margin-top: 11px;
+    margin-left: 1rem;
+    width: 173px;
+    color-scheme: light;
+    font-size: 13px;
+    font-weight: 500;
+    height: 25px;
+    width: 136px;
+}
+
+#date-filter-comparator-timeStamp {
+    background-color: rgb(31, 33, 37) !important;
+    color: white;
+    fill: white;
+    /* margin-right:2rem; */
+    font-size: 13px;
+    padding-top: 2px;
+    font-weight: 500;
+    height: 25px;
+    width: 65px;
+    margin-top: -1px;
+}
+
+#date-filter-column-updated_time {
+    background-color: rgb(31, 33, 37) !important;
+    color: white;
+    margin-top: 11px;
+    color-scheme: light;
+    width: 173px;
+    margin-left: 1rem;
+    font-size: 13px;
+    font-weight: 500;
+    height: 25px;
+    width: 136px;
+}
+
+#date-filter-comparator-updated_time {
+    background-color: rgb(31, 33, 37) !important;
+    color: white;
+    /* margin-right:2rem; */
+    font-size: 13px;
+    font-weight: 500;
+    padding-top: 2px;
+    height: 25px;
+    width: 65px;
+    margin-top: -1px;
+}
+
+.table thead th {
+    vertical-align: top
+}
+
+.form-check-label {
+    margin-bottom: 32px;
+    font-size: 13px;
+}
+
+.form-check-inline .form-check-input {
+    /* height: 14px; */
+    width: 2rem;
+    accent-color: #FFC107;
+    color:rgb(31, 33, 37)
+    /* margin-right: -19rem; */
+}
+
+.form-check-input {
+    /* margin-left: 2rem; */
+    height: 14px;
+    width: 10%;
+    /* margin-top: -2px; */
+    cursor: pointer;
+
+}
+
+.form-check-inline {
+    align-items: baseline;
+    background-color: rgb(31, 33, 37);
+    padding-left: 0.5rem;
+    height: 2rem;
+    width: 11rem;
+}
+#text-filter-column-hash{
+    background-color:rgb(31, 33, 37) !important;
+    color:white;
+    width:100px;
+    font-size: 13px;
+    font-weight: 500;
+    height: 25px;
+    width: 130px;
+}
+#text-filter-column-block{
+    background-color:rgb(31, 33, 37) !important;
+    color:white;
+    width:100px;
+    font-size: 13px;
+    font-weight: 500;
+    height: 25px;
+    width: 130px;
+}
+#number-filter-column-return_amount{
+    background-color:rgb(31, 33, 37) !important;
+    color:white;
+    margin-top:11px;
+    margin-left: 1rem;
+    width:173px;
+    font-size: 13px;
+    font-weight: 500;
+    height: 25px;
+    width: 91px;
+}
+#text-filter-column-USD_amount{
+    background-color:rgb(31, 33, 37) !important;
+    color:white;
+    margin-top:11px;
+    margin-left: 1rem;
+    width:173px;
+    font-size: 13px;
+    font-weight: 500;
+    height: 25px;
+    width: 136px;
+}
+#number-filter-column-USD_amount{
+    background-color:rgb(31, 33, 37) !important;
+    color:white;
+    margin-top:11px;
+    margin-left: 1rem;
+    width:173px;
+    font-size: 13px;
+    font-weight: 500;
+    height: 25px;
+    width: 136px;
+}
+#number-filter-comparator-USD_amount{
+    background-color:rgb(31, 33, 37) !important;
+    color:white;
+    fill:white;
+    /* margin-right:2rem; */
+    font-size: 13px;
+    font-weight: 500;
+    height: 25px;
+    padding-top: 2px;
+    width: 65px;
+
+}
+#text-filter-column-quantity{
+    background-color:rgb(31, 33, 37) !important;
+    color:white;
+    margin-top:11px;
+    /* margin-left: 1rem; */
+    width:173px;
+    font-size: 13px;
+    font-weight: 500;
+    height: 25px;
+    width: 136px;
+}
+#text-filter-column-purchase_price{
+    background-color:rgb(31, 33, 37) !important;
+    color:white;
+    margin-top:11px;
+    /* margin-left: 1rem; */
+    width:173px;
+    font-size: 13px;
+    font-weight: 500;
+    height: 25px;
+    width: 136px;
+}
+#text-filter-column-purchase_value{
+    background-color:rgb(31, 33, 37) !important;
+    color:white;
+    margin-top:11px;
+    /* margin-left: 1rem; */
+    width:173px;
+    font-size: 13px;
+    font-weight: 500;
+    height: 25px;
+    width: 136px;
+}
+#number-filter-comparator-return_amount{
+    background-color:rgb(31, 33, 37) !important;
+    color:white;
+    fill:white;
+    /* margin-right:2rem; */
+    font-size: 13px;
+    font-weight: 500;
+    height: 25px;
+    padding-top: 2px;
+    width: 65px;
+}
+#number-filter-column-return_amount1{
+    background-color:rgb(31, 33, 37) !important;
+    color:white;
+    margin-top:11px;
+    margin-left: 1rem;
+    width:173px;
+    font-size: 13px;
+    font-weight: 500;
+    height: 25px;
+    width: 136px;
+}
+#number-filter-comparator-return_amount1{
+    background-color:rgb(31, 33, 37) !important;
+    color:white;
+    fill:white;
+    /* margin-right:2rem; */
+    font-size: 13px;
+    font-weight: 500;
+    height: 25px;
+    padding-top: 2px;
+    width: 65px;
+}
+#number-filter-comparator-usd_result{
+    background-color:rgb(31, 33, 37) !important;
+    color:white;
+    fill:white;
+    /* margin-right:2rem; */
+    font-size: 13px;
+    font-weight: 500;
+    height: 25px;
+    padding-top: 2px;
+    width: 65px;
+}
+#number-filter-column-usd_result{
+    background-color:rgb(31, 33, 37) !important;
+    color:white;
+    margin-top:11px;
+    margin-left: 1rem;
+    width:173px;
+    font-size: 13px;
+    font-weight: 500;
+    height: 25px;
+    width: 136px;
+}
+#date-filter-comparator-timestamp{
+    background-color:rgb(31, 33, 37) !important;
+    color:white;
+    /* margin-right:2rem; */
+    font-size: 13px;
+    font-weight: 500;
+    padding-top: 2px;
+    height: 25px;
+    width: 65px;
+     margin-top:-1px; 
+}
+#date-filter-column-timestamp{
+    background-color:rgb(31, 33, 37) !important;
+    color:white;
+    margin-top:11px;
+    width:173px;
+    color-scheme: light;
+    margin-left: 1rem;
+    font-size: 13px;
+    font-weight: 500;
+    height: 25px;
+    width: 136px;
+}
+#text-filter-column-tokenType{
+    background-color:rgb(31, 33, 37) !important;
+    color:white;
+    width:100px;
+    font-size: 13px;
+    font-weight: 500;
+    height: 25px;
+    width: 130px;
+}
+#text-filter-column-ownerAddress{
+    background-color:rgb(31, 33, 37) !important;
+    color:white;
+    width:100px;
+    font-size: 13px;
+    font-weight: 500;
+    height: 25px;
+    width: 130px;
+}
+#text-filter-column-toAddress{
+    background-color:rgb(31, 33, 37) !important;
+    color:white;
+    width:100px;
+    font-size: 13px;
+    font-weight: 500;
+    height: 25px;
+    width: 130px;
+}
+#text-filter-column-transaction_id{
+    background-color:rgb(31, 33, 37) !important;
+    color:white;
+    width:100px;
+    font-size: 13px;
+    font-weight: 500;
+    height: 25px;
+    width: 130px;
+}
+#text-filter-column-tokenName{
+    background-color:rgb(31, 33, 37) !important;
+    color:white;
+    width:100px;
+    font-size: 13px;
+    font-weight: 500;
+    height: 25px;
+    width: 130px;
+}
+#text-filter-column-result{
+    background-color:rgb(31, 33, 37) !important;
+    color:white;
+    width:100px;
+    font-size: 13px;
+    font-weight: 500;
+    height: 25px;
+    width: 130px;
+}
+#text-filter-column-confirmed{
+    background-color:rgb(31, 33, 37) !important;
+    color:white;
+    width:100px;
+    font-size: 13px;
+    font-weight: 500;
+    height: 25px;
+    width: 130px;
+}
+#text-filter-column-game{
+    background-color:rgb(31, 33, 37) !important;
+    color:white;
+    width:100px;
+    font-size: 13px;
+    font-weight: 500;
+    height: 25px;
+    width: 130px;
+}
+#text-filter-column-game_details{
+    background-color:rgb(31, 33, 37) !important;
+    color:white;
+    width:100px;
+    font-size: 13px;
+    font-weight: 500;
+    height: 25px;
+    width: 130px;
+}
+#text-filter-column-venue{
+    background-color:rgb(31, 33, 37) !important;
+    color:white;
+    width:100px;
+    font-size: 13px;
+    font-weight: 500;
+    height: 25px;
+    width: 130px;
+}
+#text-filter-column-type{
+    background-color:rgb(31, 33, 37) !important;
+    color:white;
+    width:100px;
+    font-size: 13px;
+    font-weight: 500;
+    height: 25px;
+    width: 130px;
+}
+#text-filter-column-host{
+    background-color:rgb(31, 33, 37) !important;
+    color:white;
+    width:100px;
+    font-size: 13px;
+    font-weight: 500;
+    height: 25px;
+    width: 130px;
+}
+#text-filter-column-group_{
+    background-color:rgb(31, 33, 37) !important;
+    color:white;
+    width:100px;
+    font-size: 13px;
+    font-weight: 500;
+    height: 25px;
+    width: 130px;
+}
+#text-filter-column-player{
+    background-color:rgb(31, 33, 37) !important;
+    color:white;
+    width:100px;
+    font-size: 13px;
+    font-weight: 500;
+    height: 25px;
+    width: 130px;
+}
+#text-filter-column-shares{
+    background-color:rgb(31, 33, 37) !important;
+    color:white;
+    width:100px;
+    font-size: 13px;
+    font-weight: 500;
+    height: 25px;
+    width: 130px;
+}
+#text-filter-column-result{
+    background-color:rgb(31, 33, 37) !important;
+    color:white;
+    width:100px;
+    font-size: 13px;
+    font-weight: 500;
+    height: 25px;
+    width: 130px;
+}
+#text-filter-column-owner_ship{
+    background-color:rgb(31, 33, 37) !important;
+    color:white;
+    width:100px;
+    font-size: 13px;
+    font-weight: 500;
+    height: 25px;
+    width: 130px;
+}
+#text-filter-column-date_updated{
+    background-color: rgb(31, 33, 37) !important;
+    color:white;
+    width:100px;
+    color-scheme: light;
+    font-size: 13px;
+    font-weight: 500;
+    height: 25px;
+    width: 130px;
+}
+#date-filter-column-date_created{
+    background-color:rgb(31, 33, 37) !important;
+    color:white;
+    margin-top:11px;
+    width:173px;
+    color-scheme: light;
+    margin-left: 1rem;
+    font-size: 13px;
+    font-weight: 500;
+    height: 25px;
+    width: 136px;
+}
+#date-filter-comparator-date_created{
+    background-color:rgb(31, 33, 37) !important;
+    color:white;
+    /* margin-right:2rem; */
+    font-size: 13px;
+    font-weight: 500;
+    height: 25px;
+    width: 65px;
+    margin-top:-1px; 
+}
+#number-filter-column-result{
+    background-color:rgb(31, 33, 37) !important;
+    color:white;
+    margin-top:11px;
+    margin-left: 1rem;
+    width:173px;
+    font-size: 13px;
+    font-weight: 500;
+    height: 25px;
+    width: 136px;
+}
+#number-filter-comparator-result{
+    background-color:rgb(31, 33, 37) !important;
+    color:white;
+    /* margin-right:2rem; */
+    font-size: 13px;
+    font-weight: 500;
+    height: 25px;
+    width: 65px;
+    margin-top:-2px; 
+}
+#number-filter-column-date_updated{
+    background-color:rgb(31, 33, 37) !important;
+    color:white;
+    margin-top:11px;
+    margin-left: 1rem;
+    width:173px;
+    color-scheme: light;
+    font-size: 13px;
+    font-weight: 500;
+    height: 25px;
+    width: 136px;
+
+}
+#number-filter-comparator-date_updated{
+    background-color:rgb(31, 33, 37) !important;
+    color:white;
+    /* margin-right:2rem; */
+    font-size: 13px;
+    font-weight: 500;
+    height: 25px;
+    width: 65px;
+    margin-top:-2px; 
+}
+#text-filter-column-weeks{
+    background-color:rgb(31, 33, 37) !important;
+    color:white;
+    margin-top:11px;
+    /* margin-left: 1rem; */
+    width:173px;
+    font-size: 13px;
+    font-weight: 500;
+    height: 25px;
+    width: 80px;
+}
+#number-filter-comparator-weeks{
+    background-color:rgb(31, 33, 37) !important;
+    color:white;
+    /* margin-right:2rem; */
+    font-size: 13px;
+    font-weight: 500;
+    height: 25px;
+    width: 60px;
+    margin-top:-2px; 
+}
+#date-filter-comparator-time{
+    background-color:rgb(31, 33, 37) !important;
+    color:white;
+    /* margin-right:2rem; */
+    font-size: 13px;
+    font-weight: 500;
+    height: 25px;
+    padding-top: 2px;
+    width: 65px;
+    margin-top:-1px; 
+}
+#date-filter-column-time{
+    background-color:rgb(31, 33, 37) !important;
+    color:white;
+    margin-top:11px;
+    width:173px;
+    color-scheme: light;
+    margin-left: 1rem;
+    font-size: 13px;
+    font-weight: 500;
+    height: 25px;
+    width: 136px;
+}
+#text-filter-column-hash_id{
+    background-color: rgb(31, 33, 37) !important;
+    color:white;
+    width:100px;
+    color-scheme: light;
+    font-size: 13px;
+    font-weight: 500;
+    height: 25px;
+    width: 130px;
+}
+#text-filter-column-fee{
+    background-color: rgb(31, 33, 37) !important;
+    color:white;
+    width:100px;
+    color-scheme: light;
+    font-size: 13px;
+    font-weight: 500;
+    height: 25px;
+    width: 130px;
+}
+#text-filter-column-input_addr{
+    background-color: rgb(31, 33, 37) !important;
+    color:white;
+    width:100px;
+    color-scheme: light;
+    font-size: 13px;
+    font-weight: 500;
+    height: 25px;
+    width: 130px;
+}
+#text-filter-column-output_addr{
+    background-color: rgb(31, 33, 37) !important;
+    color:white;
+    width:100px;
+    color-scheme: light;
+    font-size: 13px;
+    font-weight: 500;
+    height: 25px;
+    width: 130px;
+}
+#text-filter-column-from{
+    background-color: rgb(31, 33, 37) !important;
+    color:white;
+    width:100px;
+    color-scheme: light;
+    font-size: 13px;
+    font-weight: 500;
+    height: 25px;
+    width: 130px;
+}
+#text-filter-column-game_id{
+    background-color: rgb(31, 33, 37) !important;
+    color:white;
+    width:100px;
+    color-scheme: light;
+    font-size: 13px;
+    font-weight: 500;
+    height: 25px;
+    width: 40px;
+}
+#text-filter-column-currency{
+    background-color: rgb(31, 33, 37) !important;
+    color:white;
+    width:100px;
+    color-scheme: light;
+    font-size: 13px;
+    font-weight: 500;
+    height: 25px;
+    width: 130px;
+}
+#text-filter-column-total_amount{
+    background-color: rgb(31, 33, 37) !important;
+    color:white;
+    width:100px;
+    color-scheme: light;
+    font-size: 13px;
+    font-weight: 500;
+    height: 25px;
+    width: 130px;
+}
+#text-filter-column-final_balance{
+    background-color: rgb(31, 33, 37) !important;
+    color:white;
+    width:100px;
+    color-scheme: light;
+    font-size: 13px;
+    font-weight: 500;
+    height: 25px;
+    width: 130px;
+}
+#text-filter-column-shareholder1{
+    background-color: rgb(31, 33, 37) !important;
+    color:white;
+    width:100px;
+    color-scheme: light;
+    font-size: 13px;
+    font-weight: 500;
+    height: 25px;
+    width: 130px;
+}
+#text-filter-column-shareholder2{
+    background-color: rgb(31, 33, 37) !important;
+    color:white;
+    width:100px;
+    color-scheme: light;
+    font-size: 13px;
+    font-weight: 500;
+    height: 25px;
+    width: 130px;
+}
+#text-filter-column-shareholder3{
+    background-color: rgb(31, 33, 37) !important;
+    color:white;
+    width:100px;
+    color-scheme: light;
+    font-size: 13px;
+    font-weight: 500;
+    height: 25px;
+    width: 130px;
+}
+#text-filter-column-shareholder4{
+    background-color: rgb(31, 33, 37) !important;
+    color:white;
+    width:100px;
+    color-scheme: light;
+    font-size: 13px;
+    font-weight: 500;
+    height: 25px;
+    width: 130px;
+}
+#text-filter-column-shareholder5{
+    background-color: rgb(31, 33, 37) !important;
+    color:white;
+    width:100px;
+    color-scheme: light;
+    font-size: 13px;
+    font-weight: 500;
+    height: 25px;
+    width: 130px;
+}
+#text-filter-column-sh1{
+    background-color: rgb(31, 33, 37) !important;
+    color:white;
+    width:100px;
+    color-scheme: light;
+    font-size: 13px;
+    font-weight: 500;
+    height: 25px;
+    width: 65px;
+}
+#text-filter-column-sh2{
+    background-color: rgb(31, 33, 37) !important;
+    color:white;
+    width:100px;
+    color-scheme: light;
+    font-size: 13px;
+    font-weight: 500;
+    height: 25px;
+    width: 65px;
+}
+#text-filter-column-sh3{
+    background-color: rgb(31, 33, 37) !important;
+    color:white;
+    width:100px;
+    color-scheme: light;
+    font-size: 13px;
+    font-weight: 500;
+    height: 25px;
+    width: 65px;
+}
+#text-filter-column-sh4{
+    background-color: rgb(31, 33, 37) !important;
+    color:white;
+    width:100px;
+    color-scheme: light;
+    font-size: 13px;
+    font-weight: 500;
+    height: 25px;
+    width: 65px;
+}
+#text-filter-column-sh5{
+    background-color: rgb(31, 33, 37) !important;
+    color:white;
+    width:100px;
+    color-scheme: light;
+    font-size: 13px;
+    font-weight: 500;
+    height: 25px;
+    width: 65px;
+}
+#date-filter-column-date{
+    background-color:rgb(31, 33, 37) !important;
+    color:white;
+    margin-top:11px;
+    width:173px;
+    color-scheme: light;
+    margin-left: 1rem;
+    font-size: 13px;
+    font-weight: 500;
+    height: 25px;
+    width: 136px;
+}
+#date-filter-comparator-date{
+    background-color:rgb(31, 33, 37) !important;
+    color:white;
+    /* margin-right:2rem; */
+    font-size: 13px;
+    font-weight: 500;
+    padding-top: 2px;
+    height: 25px;
+    width: 65px;
+    margin-top:-1px; 
+
+}
+#date-filter-column-date_updated{
+    background-color:rgb(31, 33, 37) !important;
+    color:white;
+    margin-top:11px;
+    width:173px;
+    color-scheme: light;
+    margin-left: 1rem;
+    font-size: 13px;
+    font-weight: 500;
+    height: 25px;
+    width: 136px;
+}
+#date-filter-comparator-date_updated{
+    background-color:rgb(31, 33, 37) !important;
+    color:white;
+    /* margin-right:2rem; */
+    font-size: 13px;
+    font-weight: 500;
+    height: 25px;
+    width: 65px;
+    margin-top:-2px; 
+}
+#date-filter-column-btc_date{
+    background-color:rgb(31, 33, 37) !important;
+    color:white;
+    margin-top:11px;
+    width:173px;
+    color-scheme: light;
+    margin-left: 1rem;
+    font-size: 13px;
+    font-weight: 500;
+    height: 25px;
+    width: 136px;
+}
+#date-filter-column-tron_date{
+    background-color:rgb(31, 33, 37) !important;
+    color:white;
+    margin-top:11px;
+    width:173px;
+    color-scheme: light;
+    margin-left: 1rem;
+    font-size: 13px;
+    font-weight: 500;
+    height: 25px;
+    width: 136px;
+}
+#date-filter-column-exchange_date{
+    background-color:rgb(31, 33, 37) !important;
+    color:white;
+    margin-top:11px;
+    width:173px;
+    color-scheme: light;
+    margin-left: 1rem;
+    font-size: 13px;
+    font-weight: 500;
+    height: 25px;
+    width: 136px;
+}
+#date-filter-comparator-exchange_date{
+    background-color:rgb(31, 33, 37) !important;
+    color:white;
+    /* margin-right:2rem; */
+    font-size: 13px;
+    font-weight: 500;
+    height: 25px;
+    width: 65px;
+    padding-top: 2px;
+    margin-top:-2px; 
+}
+#date-filter-comparator-tron_date{
+    background-color:rgb(31, 33, 37) !important;
+    color:white;
+    /* margin-right:2rem; */
+    font-size: 13px;
+    font-weight: 500;
+    height: 25px;
+    width: 65px;
+    padding-top: 2px;
+    margin-top:-2px; 
+}
+#date-filter-comparator-btc_date{
+    background-color:rgb(31, 33, 37) !important;
+    color:white;
+    /* margin-right:2rem; */
+    font-size: 13px;
+    font-weight: 500;
+    height: 25px;
+    width: 65px;
+    padding-top: 2px;
+    margin-top:-1px; 
+}
+#text-filter-column-sender{
+    background-color: rgb(31, 33, 37) !important;
+    color:white;
+    width:100px;
+    color-scheme: light;
+    font-size: 13px;
+    font-weight: 500;
+    height: 25px;
+    width: 130px;
+}
+#text-filter-column-reciever{
+    background-color: rgb(31, 33, 37) !important;
+    color:white;
+    width:100px;
+    color-scheme: light;
+    font-size: 13px;
+    font-weight: 500;
+    height: 25px;
+    width: 130px;
+}
+#text-filter-column-payment_type{
+    background-color: rgb(31, 33, 37) !important;
+    color:white;
+    width:100px;
+    color-scheme: light;
+    font-size: 13px;
+    font-weight: 500;
+    height: 25px;
+    width: 130px;
+}
+#text-filter-column-exchange_rate{
+    background-color: rgb(31, 33, 37) !important;
+    color:white;
+    width:100px;
+    color-scheme: light;
+    font-size: 13px;
+    font-weight: 500;
+    height: 25px;
+    width: 156px;
+}
+#text-filter-column-result_usd{
+    background-color: rgb(31, 33, 37) !important;
+    color:white;
+    width:100px;
+    color-scheme: light;
+    font-size: 13px;
+    font-weight: 500;
+    height: 25px;
+    width: 130px;
+}
+#text-filter-column-from_address{
+    background-color: rgb(31, 33, 37) !important;
+    color:white;
+    width:100px;
+    color-scheme: light;
+    font-size: 13px;
+    font-weight: 500;
+    height: 25px;
+    width: 130px;
+}
+#text-filter-column-to_address{
+    background-color: rgb(31, 33, 37) !important;
+    color:white;
+    width:100px;
+    color-scheme: light;
+    font-size: 13px;
+    font-weight: 500;
+    height: 25px;
+    width: 130px;
+}
+#text-filter-column-return_amount1{
+    background-color: rgb(31, 33, 37) !important;
+    color:white;
+    width:100px;
+    color-scheme: light;
+    font-size: 13px;
+    font-weight: 500;
+    height: 25px;
+    width: 130px;
+}
+#text-filter-column-result_USD{
+    background-color: rgb(31, 33, 37) !important;
+    color:white;
+    width:100px;
+    color-scheme: light;
+    font-size: 13px;
+    font-weight: 500;
+    height: 25px;
+    width: 130px;
+}
+#text-filter-column-address_id{
+    background-color: rgb(31, 33, 37) !important;
+    color:white;
+    width:100px;
+    color-scheme: light;
+    font-size: 13px;
+    font-weight: 500;
+    height: 25px;
+    width: 130px;
+}
+#text-filter-column-other_wallet_address{
+    background-color: rgb(31, 33, 37) !important;
+    color:white;
+    width:100px;
+    color-scheme: light;
+    font-size: 13px;
+    font-weight: 500;
+    height: 25px;
+    width: 130px;
+}
+#text-filter-column-return_amount{
+    background-color: rgb(31, 33, 37) !important;
+    color:white;
+    width:100px;
+    color-scheme: light;
+    font-size: 13px;
+    font-weight: 500;
+    height: 25px;
+    width: 130px;
+}
+#text-filter-column-address_type{
+    background-color: rgb(31, 33, 37) !important;
+    color:white;
+    width:100px;
+    color-scheme: light;
+    font-size: 13px;
+    font-weight: 500;
+    height: 25px;
+    width: 130px;
+}
+#text-filter-column-net_fee{
+    background-color: rgb(31, 33, 37) !important;
+    color:white;
+    width:100px;
+    color-scheme: light;
+    font-size: 13px;
+    font-weight: 500;
+    height: 25px;
+    width: 130px;
+}
+#text-filter-column-usd_result{
+    background-color: rgb(31, 33, 37) !important;
+    color:white;
+    width:100px;
+    color-scheme: light;
+    font-size: 13px;
+    font-weight: 500;
+    height: 25px;
+    width: 130px;
+}
+#text-filter-column-usd_fee{
+    background-color: rgb(31, 33, 37) !important;
+    color:white;
+    width:100px;
+    color-scheme: light;
+    font-size: 13px;
+    font-weight: 500;
+    height: 25px;
+    width: 130px;
+}
+#text-filter-column-creditor{
+    background-color: rgb(31, 33, 37) !important;
+    color:white;
+    width:100px;
+    color-scheme: light;
+    font-size: 13px;
+    font-weight: 500;
+    height: 25px;
+    width: 130px;
+}
+#text-filter-column-debtor{
+    background-color: rgb(31, 33, 37) !important;
+    color:white;
+    width:100px;
+    color-scheme: light;
+    font-size: 13px;
+    font-weight: 500;
+    height: 25px;
+    width: 130px;
+}
+#text-filter-column-payment_id{
+    background-color: rgb(31, 33, 37) !important;
+    color:white;
+    width:100px;
+    color-scheme: light;
+    font-size: 13px;
+    font-weight: 500;
+    height: 25px;
+    width: 40px;
+}
+#text-filter-column-ledgre_type{
+    background-color: rgb(31, 33, 37) !important;
+    color:white;
+    width:100px;
+    color-scheme: light;
+    font-size: 13px;
+    font-weight: 500;
+    height: 25px;
+    width: 130px;
+}
+#text-filter-column-buy_value{
+    background-color: rgb(31, 33, 37) !important;
+    color:white;
+    width:100px;
+    color-scheme: light;
+    font-size: 13px;
+    font-weight: 500;
+    height: 25px;
+    width: 130px;
+}
+#number-filter-column-amount{
+    background-color:rgb(31, 33, 37) !important;
+    color:white;
+    margin-top:11px;
+    margin-left: 1rem;
+    width:173px;
+    color-scheme: light;
+    font-size: 13px;
+    font-weight: 500;
+    height: 25px;
+    width: 136px;
+}
+#number-filter-comparator-amount{
+    background-color:rgb(31, 33, 37) !important;
+    color:white;
+    /* margin-right:2rem; */
+    font-size: 13px;
+    font-weight: 500;
+    height: 25px;
+    padding-top: 2px;
+    width: 65px;
+    margin-top:-2px; 
+}
+#number-filter-column-result_USD{
+    background-color:rgb(31, 33, 37) !important;
+    color:white;
+    margin-top:11px;
+    margin-left: 1rem;
+    width:173px;
+    color-scheme: light;
+    font-size: 13px;
+    font-weight: 500;
+    height: 25px;
+    width: 136px;
+}
+#number-filter-comparator-result_USD{
+    background-color:rgb(31, 33, 37) !important;
+    color:white;
+    /* margin-right:2rem; */
+    font-size: 13px;
+    font-weight: 500;
+    height: 25px;
+    padding-top: 2px;
+    width: 65px;
+    margin-top:-2px; 
+}
+.btn:focus {
+    box-shadow: none;
+}
+
+.pageheader {
+    margin-top: 1.5%;
+}
+
+h3.pagetitle {
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    margin-left: 24px;
+    top: 15px;
+    position: relative;
+}
+.CircularProgressbar-text{
+    font-size:30px !important;
+} 
+.CircularProgressbar{
+    column-gap: 1rem;
+    /* margin-bottom: 5px !important; */
+} 
+.MuiAutocomplete-option{
+    font-size: 14px !important;
+}
+.MuiMenuItem-root{
+    font-size: 13px !important;
+}
+.MuiInputLabel-root{
+    font-size: 13px !important;
+    margin-left: 11px;
+}
+
+#separator
+{
+    background-color: gray;
+    height:0.01em;
+    width:100em;
+}
+.MuiAutocomplete-input{
+    padding: 0.5px 4px 7.5px 6px !important;
+}
+
+.btn-color:active{
+    background-color:#FFC107;
+} 
+.btn-color{
+    background-color:grey;
+}
+.load-more{
+    background-color: grey;
+    color: white;
+    margin-left: 40%;
+    margin-top: 0%;
+    margin-bottom: 1%;
+    width:15em;
+    font-size: 14px;
+    border: 1px solid grey;
+    border-radius: 10px;
+}
+.disabled-load-more{
+    background-color: grey;
+    color: white;
+    margin-left: 40%;
+    opacity: 0.5;
+    margin-top: 0%;
+    margin-bottom: 1%;
+    width:15em;
+    font-size: 14px;
+    border: 1px solid grey;
+    border-radius: 10px;
+}
+.load-more:active{
+    background-color:#FFC107;
+} 
+.load-previous{
+    background-color: grey;
+    color: white;
+    /* margin-left: 38.6%; */
+    margin-top: 2.5%;
+    width:15em;
+    height: 2em;
+    border: 1px solid grey;
+    border-radius: 10px;
+}
+.load-previous:active{
+    background-color:#FFC107;
+} 
+.apply{
+    background-color: transparent;
+    color: white;
+    height: 2em;
+    width: 5em;
+    margin-left: 1.6em;
+    margin-top: 1.5%;
+    padding-top: 3px;
+    border: 1px solid grey;
+    border-radius: 10px;
+}
+.apply:active{
+    background-color:#FFC107;
+} 
+.cancel{
+    background-color: transparent;
+    color: white;
+    height: 2em;
+    width: 5em;
+    /* margin-left: 1.6em; */
+    margin-top: 1.5%;
+    padding-top: 3px;
+    border: 1px solid grey;
+    border-radius: 10px;
+}
+.cancel:active{
+    background-color:#FFC107;
+} 
+.clear{
+    background-color: transparent;
+    color: white;
+    height: 2em;
+    width: 5em;
+    margin-left: 1em;
+    margin-top: 1.5%;
+    padding-top: 3px;
+    border: 1px solid grey;
+    border-radius: 10px;
+}
+.clear:active{
+    background-color:#FFC107;
+} 
+.retrieve-transaction{
+    color: white;
+    font-size: 14px;
+}
+.retrieve-transaction:hover{
+    color:#FFC107 !important;
+
+} 
+@media screen and (min-width:1700px) {
+    .col-md-2{
+      max-width: 15rem !important ;
+    }
+    .col-lg-10{
+      max-width:calc(100vw - 15rem) !important;
+    }
+  }
+  .transaction-table{
+    height: 77vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+  }
+  .transaction-table::-webkit-scrollbar {
+    width: 0px;
+    /* overflow-y: hidden !important; */
+    /* height: 100px !important; */
+    overflow-y: auto;
+    overflow-x: auto;
+    /* height: 4px; */
+    display: scroll;
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+}
+.blur-screen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background:transparent; 
+    /* z-index: 9;  */
+}
+.no-record-found{
+width: 34%;
+font-weight:bold;
+background-color: transparent;
+border:1px solid white;
+border-radius: 5px;
+color: white;
+}
+.no-record-found:active{
+    background-color: #FFC107;
+    /* border: none; */
+}
+.past-transaction{
+    width: 16%;
+    height: 2em;
+    font-weight:bold;
+    background-color: transparent;
+    border:1px solid white;
+    border-radius: 5px;
+color: white;
+}
+.past-transaction:active{
+    background-color: #FFC107;
+}
+.full-page-scroll{
+    height: 100vh;
+}
+.full-page-scroll::-webkit-scrollbar {
+    overflow-y: auto;
+    overflow-x: auto;
+    height: 0px;
+    width: 0px;
+    display: scroll;
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+  }
+  .custom-file-input:lang(en)~.custom-file-label::after{
+    display: none;
+  }
+  
+  
+  

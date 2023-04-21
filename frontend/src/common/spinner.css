@@ -1,0 +1,30 @@
+@keyframes spinner {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  .loading-spinner {
+    width: 50px;
+    height: 50px;
+    /* border: 10px solid #007bff;
+    border-top: 10px solid #383636; 
+    border-radius: 50%;
+    animation: spinner 1.5s linear infinite; */
+    --rl-spin-color:  #FFC107 !important;
+    --rl-spin-border: 20px !important;
+    
+  }
+  #spin{
+    position:fixed;
+    top:20em;
+    left:59%;
+    height:70px;
+     width: 70px;
+  }
+  /* .rl-spin div > div{
+    background: #FFC107 !important;
+  } */
+  

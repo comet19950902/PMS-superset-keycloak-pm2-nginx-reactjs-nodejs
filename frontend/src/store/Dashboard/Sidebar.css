@@ -1,0 +1,109 @@
+.dashboard {
+    background: #1f2125;
+    margin-bottom: 10%;
+    margin-top: 1%;
+    height: 80%;
+    width: 10%;
+}
+
+ul.sidebar {
+    list-style: none;
+    margin: 0;
+    margin-top: 1.6em;
+    padding-left: 0%;
+    line-height: 2.3em;
+}
+
+.btnassets {
+    margin-top: 80%;
+    margin-right: 2%;
+    margin-bottom: 3%;
+}
+
+.dashboard aside {
+    height: 100%;
+    padding: 2%;
+    display: grid;
+}
+
+ul.sidebar li a {
+    display: flex;
+    align-items: center;
+}
+
+.active,
+.nav-link:focus
+/* .nav-link:hover */
+ {
+    /* border-radius: 15px; */
+    border: 1px solid #FFC107 ;
+    /* box-shadow: inset -1px 1px 9px rgb(0 0 0), inset -2px -4px 4px rgb(255 255 255 / 20%); */
+    color: #FFC107;
+    width: 100%;
+    /* transition: all 0.5s; */
+}
+
+.nav-link {
+    color: white;
+     padding: 0; 
+}
+
+ul.sidebar li:hover a.active svg path {
+    /* fill: #0F8BFE; */
+    /* stroke: #0F8BFE; */
+}
+
+ul.sidebar li a {
+    padding-left: 12%;
+     padding-bottom:3% ;
+    padding-right: 6%;
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    font-family: "Inter,Helvetica,Arial";
+}
+
+ul.sidebar li a.active {
+    padding-left: 12%;
+     padding-bottom:3% ; 
+    padding-right: 6%;
+    /* margin-top: 3%; */
+    text-decoration: none;
+    color: #FFC107;
+    font-size: 25px;
+    font-family: "Inter,Helvetica,Arial";
+}
+
+ul.sidebar li a span {
+    font-size: 16px;
+    font-weight: 500;
+    padding-left: 15px;
+}
+
+.btnassets a {
+    background: hsl(218deg 9% 18%);
+    width: 50%;
+    display: flex;
+    margin-left: 5%;
+    align-items: center;
+    /* height: 20%; */
+    justify-content: center;
+    border-radius: 15px;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-family: "Inter,Helvetica,Arial";
+    box-shadow: 18px 25px 34px rgb(0 0 0 / 73%), -5px -5px 26px hsl(247deg 4% 55% / 26%);
+    transition: all 0.5s;
+}
+
+.btnassets a:hover {
+    box-shadow: none;
+    transition: all 0.5s;
+}
+
+ul.sidebar li {
+    margin-bottom: 0.3em;
+    /* width: 150px; */
+}
+

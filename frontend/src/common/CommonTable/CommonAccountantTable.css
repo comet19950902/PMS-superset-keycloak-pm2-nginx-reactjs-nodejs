@@ -1,0 +1,228 @@
+.tablet_accountant .table {
+    background: #222429;
+  }
+  
+  .tablet_accountant {
+    margin-left: '10%';
+    border-radius: '12px';
+    max-height: '98vh';
+    width: 100%;
+    background: '#222429';
+  }
+  
+  /* .tablet_accountant::-webkit-scrollbar {
+    width: 8px;
+    color: white;
+    display: visible !important; 
+    box-shadow: inset 0 0 5px grey;
+      border-radius: 10px;
+  } */
+  
+  .tablet_accountant  .tableData {
+    overflow-y: auto;
+  }
+  
+  /* Track */
+  /* .tablet_accountant::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px #222429;
+    border-radius: 10px;
+  } */
+  
+  /* Handle */
+  /* .tablet_accountant::-webkit-scrollbar-thumb {
+    background: #222429;
+    border-radius: 10px;
+    color: white;
+  } */
+  
+  /* Handle on hover */
+  /* .tablet_accountant::-webkit-scrollbar-thumb:hover {
+    background: dark#222429;
+  } */
+  .tablet_accountant .table::-webkit-scrollbar-thumb{
+    background: grey;
+      border-radius: 10px;
+  }
+  .tablet_accountant .table-bordered {
+    border: none
+  }
+  
+  .tablet_accountant .table-bordered td,
+  .tablet_accountant .table-bordered th {
+    /* width: auto;
+    font-size: 14px;
+    word-break: break-all !important;
+    word-wrap: break-word !important; */
+    border: none;
+    border-bottom: 1px solid rgb(255 255 255 / 15%) !important;
+  }
+  
+  
+  
+  .tablet_accountant .react-bootstrap-table table {
+    table-layout: auto !important;
+    width: -webkit-fill-available !important;
+  }
+  
+  .tablet_accountant .tablet_accountant td {
+    color: white;
+    font-size: 14px;
+    width:10px;
+    word-wrap: break-word;
+    padding: 10px;
+    text-align: left; 
+  }
+  
+  .tablet_accountant .table th {
+    font-size: 14px;
+    color: white;
+    font-weight: 600;
+    z-index: 1;
+    padding-left: 2em;
+    text-align: left; 
+    white-space: nowrap;
+    font-family: Inter,Helvetica,Arial;
+  }
+  
+  .tablet_accountant .table td p {
+    margin: 0;
+  }
+  
+  span.react-bs-table-sizePerPage-dropdown.dropdown {
+    display: none;
+  }
+  
+  .search-box-wrap {
+    display: none;
+  }
+  
+  .table tbody tr:nth-last-child(1) td {
+    border: none !important;
+  }
+  
+  .status {
+    display: block;
+    width: 38px;
+    height: 38px;
+    box-shadow: -7px -4px 31px hsl(0deg 0% 100% / 12%),
+      7px 10px 18px rgb(0 0 0 / 56%);
+    border-radius: 15px;
+    transition: all 0.5s;
+  }
+  
+  .status:hover {
+    box-shadow: none;
+    transition: all 0.5s;
+  }
+  
+  .status img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: center;
+  }
+  
+  .page-item.active .page-link {
+    background: #fff0;
+    border: none;
+    box-shadow: none;
+    opacity: 1;
+  }
+  
+  .page-item .page-link {
+    color: #fff;
+    opacity: 0.5;
+  }
+  
+  .green {
+    color: #15c915;
+  }
+  
+  .page-link {
+    background-color: unset !important;
+  }
+  
+  .red {
+    color: #e92a2a;
+  }
+  
+  .tablet_accountant .table-responsive {
+    overflow-x: auto !important;
+    overflow-y: auto !important;
+    height: 80vh;
+  }
+  /* @media screen and (max-width:1450px) {
+    .table-responsive {
+      overflow-x: auto !important;
+      overflow-y: auto !important;
+      height: calc(85vh + 10em);
+    } */
+    /* .sidebar-admin-container{
+      overflow-x: hidden !important;
+      overflow-y: auto !important;
+      height: 95vh !important;
+    }
+  }  */
+  .tablet_accountant .table-container {
+    overflow-y: auto;
+    max-height: 500px;
+  }
+  
+  .filter-wrapper {
+    position: absolute;
+    right: 0;
+    z-index: 2;
+  }
+  
+  #showHideCollums {
+    position: relative;
+  }
+  
+  .react-bootstrap-table th {
+    position: sticky !important;
+    top: -1px;
+    background-color: #222429;
+  }
+  .transaction{
+    height: 68vh !important;
+    overflow-y: auto;
+    overflow-x: auto;
+  }
+  .transaction th{
+   position: sticky !important;
+  }
+   @media screen and (min-width:1410px) {
+    .transaction{
+      height: 70vh !important;
+    }
+  }
+  @media screen and (max-width:1280px) {
+    .transaction{
+      height: 50vh !important;
+    }
+  }
+  .transaction-wallet{
+    height: 70vh !important;
+    overflow-y: auto;
+    overflow-x: auto;
+  }
+  .transaction-wallet th{
+   position: sticky !important;
+  }
+   @media screen and (min-width:1410px) {
+    .transaction-wallet{
+      height: 85vh !important;
+    }
+  }
+  @media screen and (max-width:1280px) {
+    .transaction-wallet{
+      height: 70vh !important;
+    }
+  }
+  .investment-header th{
+    position:static !important;
+  }
+  .investment-border tbody tr:nth-last-child(1) td {
+    /* border: none !important; */
+      border-top: 1px solid rgb(255 255 255 / 15%) !important;  
+  }

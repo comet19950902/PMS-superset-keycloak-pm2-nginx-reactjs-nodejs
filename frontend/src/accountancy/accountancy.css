@@ -1,0 +1,61 @@
+#flex-tabbar
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+#pagetitle-span
+{
+    color: #252825;
+    font-size: 1.4em;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 0.6em;
+    cursor: pointer;
+}
+#pagetitle-span:hover
+{
+    color:#FFC107;
+    border-bottom-color:#FFC107;
+}
+#pagetitle-span:visited
+{
+    color:#252825;
+    border-bottom-color:#FFC107;
+}
+#pagetitle-span:active
+{
+    color:#FFC107;
+    border-bottom-color:#FFC107;
+}
+.active,
+.nav-link-new:focus,
+.nav-link-new:hover {
+    border: 1px solid #FFC107;
+    /* border-radius: 15px; */
+    /* box-shadow: inset -1px 1px 9px rgb(0 0 0), inset -2px -4px 4px rgb(255 255 255 / 20%); */
+    color: #FFC107;
+    width: 100%;
+    text-decoration: none;
+    transition: all 0.5s;
+}
+
+.nav-link-new {
+    color: #252825;
+    text-decoration: none;
+    font-size: 1.3em;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 0.6em;
+    cursor: pointer;
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
+}
+.was-validated .form-control:invalid{
+    border-color: grey;
+    background-image: none;
+}

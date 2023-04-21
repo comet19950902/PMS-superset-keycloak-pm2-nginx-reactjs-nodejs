@@ -1,0 +1,280 @@
+.table {
+  background: #222429;
+  margin-bottom: 3rem;
+}
+
+.tablet {
+  margin-left: '10%';
+  border-radius: '12px';
+  max-height: '98vh';
+  width: '90%';
+  background: '#222429';
+}
+
+/* .tablet::-webkit-scrollbar {
+  width: 8px;
+  color: white;
+  display: visible !important; 
+  box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+} */
+
+.tableData {
+  overflow-y: auto;
+}
+
+.MuiPaper-root-MuiPickersPopper-paper{
+  transition: none;
+}
+.MuiCalendarPicker-root{
+  width: 320px; 
+ height: 295px;
+ overflow-y: hidden;
+} 
+.MuiPickersPopper-root{
+  transform: translate3d(472px, 96px, 87px);
+  margin-left: 21px !important;
+  /* width: 19em; */
+}
+/* Track */
+/* .tablet::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px #222429;
+  border-radius: 10px;
+} */
+
+/* Handle */
+/* .tablet::-webkit-scrollbar-thumb {
+  background: #222429;
+  border-radius: 10px;
+  color: white;
+} */
+
+/* Handle on hover */
+/* .tablet::-webkit-scrollbar-thumb:hover {
+  background: dark#222429;
+} */
+.table::-webkit-scrollbar-thumb{
+  background: grey;
+    border-radius: 10px;
+}
+.table-bordered {
+  border: none
+}
+
+.table-bordered td,
+.table-bordered th {
+  border: none;
+  border-bottom: 1px solid rgb(255 255 255 / 15%) !important;
+}
+
+
+
+.react-bootstrap-table table {
+  table-layout: auto !important;
+  width: -webkit-fill-available !important;
+}
+
+.table td {
+  color: white;
+  font-size: 14px;
+  /* white-space: break-spaces; */
+  overflow-wrap: anywhere;
+  padding: 10px;
+  /* padding-right: 2em; */
+   /* width: 5em !important;  */
+  /* text-align: center;  */
+}
+
+.table th {
+  font-size: 14px;
+  color: white;
+  font-weight: 600;
+  z-index: 1;
+  /* padding-left: 2em; */
+  /* text-align: center;  */
+  white-space: nowrap;
+  font-family: Inter,Helvetica,Arial;
+}
+
+.table td p {
+  margin: 0;
+}
+li::marker{
+  margin-left: 2em;
+}
+span.react-bs-table-sizePerPage-dropdown.dropdown {
+  display: none;
+}
+
+.search-box-wrap {
+  display: none;
+}
+
+.table tbody tr:nth-last-child(1) td {
+  border: none !important;
+}
+
+.status {
+  display: block;
+  width: 38px;
+  height: 38px;
+  box-shadow: -7px -4px 31px hsl(0deg 0% 100% / 12%),
+    7px 10px 18px rgb(0 0 0 / 56%);
+  border-radius: 15px;
+  transition: all 0.5s;
+}
+
+.status:hover {
+  box-shadow: none;
+  transition: all 0.5s;
+}
+
+.status img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: center;
+}
+
+.page-item.active .page-link {
+  background: #fff0;
+  border: none;
+  box-shadow: none;
+  opacity: 1;
+}
+
+.page-item .page-link {
+  color: #fff;
+  opacity: 0.5;
+}
+
+.green {
+  color: #15c915;
+}
+
+.page-link {
+  background-color: unset !important;
+}
+
+.red {
+  color: #e92a2a;
+}
+
+.table-responsive {
+  overflow-x: auto !important;
+  overflow-y: auto !important;
+  height: 80vh;
+  /* background-color: #1f2125; */
+}
+/* @media screen and (max-width:1450px) {
+  .table-responsive {
+    overflow-x: auto !important;
+    overflow-y: auto !important;
+    height: calc(85vh + 10em);
+  } */
+  /* .sidebar-admin-container{
+    overflow-x: hidden !important;
+    overflow-y: auto !important;
+    height: 95vh !important;
+  }
+}  */
+.table-container {
+  overflow-y: auto;
+  max-height: 500px;
+}
+
+.filter-wrapper {
+  position: absolute;
+  right: 0;
+  z-index: 2;
+}
+
+#showHideCollums {
+  position: relative;
+}
+
+.react-bootstrap-table th {
+  position: sticky !important;
+  top: -1px;
+  background-color: #222429;
+}
+.transaction{
+  height: 66vh !important;
+  overflow-y: auto;
+  overflow-x: auto;
+}
+.transaction th{
+ position: sticky !important;
+}
+ @media screen and (min-width:1410px) {
+  .transaction{
+    height: 70vh !important;
+  }
+}
+@media screen and (max-width:1280px) {
+  .transaction{
+    height: 50vh !important;
+  }
+}
+.transaction-wallet{
+  height: 70vh !important;
+  overflow-y: auto;
+  overflow-x: auto;
+}
+.transaction-wallet th{
+ position: sticky !important;
+}
+ @media screen and (min-width:1410px) {
+  .transaction-wallet{
+    height: 85vh !important;
+  }
+}
+@media screen and (max-width:1280px) {
+  .transaction-wallet{
+    height: 70vh !important;
+  }
+}
+.investment-header th{
+  position:static !important;
+}
+.investment-border tbody tr:nth-last-child(1) td {
+  /* border: none !important; */
+  /* width: 5em; */
+    border-top: 1px solid rgb(255 255 255 / 15%) !important;  
+}
+.investment-border table th{
+  text-align: center !important;
+}
+.invest_name{
+  color: white;
+  font-size: 14px !important;
+  font-weight: 600;
+  /* cursor: pointer; */
+  font-family: Inter,Helvetica,Arial;
+}
+/* .invest_name:active{
+  color: #FFC107;
+  font-size: 14px;
+  cursor: pointer;
+  font-weight: 600;
+  font-family: Inter,Helvetica,Arial;
+} */
+/* .expand-cell{
+  color:#15c915 !important;
+} */
+.react-bootstrap-table th>.selection-input-4{
+  width: 16px;
+  /* margin: unset !important; */
+  margin-top: -34px !important;
+  cursor: pointer;
+  vertical-align: top !important;
+}
+
+.react-bootstrap-table td>.selection-input-4, .react-bootstrap-table th>.selection-input-4{
+  margin-top: -34px !important;
+  width: 16px;
+  cursor: pointer;
+  vertical-align: top !important;
+  /* margin: unset !important; */
+
+}

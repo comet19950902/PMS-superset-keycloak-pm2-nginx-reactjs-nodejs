@@ -1,0 +1,227 @@
+.maindash {
+    background: #222429;
+    border-radius: 44px;
+    margin: 0px 0px 57px;
+    box-shadow: 3px 3px 60px rgb(0 0 0 / 16%), 21px 25px 43px rgb(0 0 0 / 60%), 2px 2px 39px rgb(0 0 0 / 13%);
+}
+
+.new::-webkit-scrollbar {
+    display: none;
+}
+
+.dashinfo span {
+    font-family: 'Inter', sans-serif;
+    /* font-family: 'Neue Haas Grotesk Display Pro'; */
+    color: white;
+    font-size: 30px;
+    margin-bottom: 22px;
+    font-weight: 400;
+    display: block;
+}
+
+.dah-img {
+    width: 5%;
+    height: 3%;
+}
+
+.maindash {
+    padding-top: 4%;
+    padding-left: 4%;
+    height: 20%;
+}
+
+.dashinfo h4 {
+    font-family: 'Inter', sans-serif;
+    /* font-family: 'Neue Haas Grotesk Display Pro'; */
+    font-size: 35px;
+    color: white;
+}
+
+.dashinfo p {
+    color: #00FF03;
+    font-size: 24px;
+    font-family: 'Inter', sans-serif;
+    /* font-family: 'Neue Haas Grotesk Display Pro'; */
+    margin: 0;
+    font-weight: 300;
+}
+
+.name-assets span {
+    width: 3.5vh;
+    height: 3.5vh;
+    border-radius: 100%;
+    margin-right: 12%;
+    margin-top: 3.5%;
+    position: relative;
+    background: #e92a2a;
+    box-shadow: 0 0 0 4px #222429, 0 0 0 7px #e92a2a;
+}
+
+
+.dashinfo p svg {
+    margin-left: 10px;
+    width: 20px;
+}
+
+.heading.day {
+    justify-content: flex-end;
+}
+
+.heading.day {
+    justify-content: flex-end;
+}
+
+.mainmyassets .col-lg-2 {
+    padding: 0;
+}
+
+.mainmyassets .col-lg-10 {
+    padding: 0;
+    margin-left: 8%;
+}
+
+.heading.day option {
+    font-size: 16px;
+}
+
+.maindashinfo {
+    margin-left: 10%;
+}
+
+.maindashboard aside {
+    max-width: 100% !important;
+}
+
+.btnassets {
+    position: fixed;
+    bottom: 0;
+    width: 24%;
+
+    height: 30%;
+    margin-left: 1%;
+}
+
+.dashboard.maindashboard {
+    position: fixed;
+}
+
+.dashheading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px 30px 0px;
+}
+
+.dashheading h3 {
+    font-size: 28px;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    /* font-family: 'Neue Haas Grotesk Display Pro'; */
+}
+
+.dashheading .heading.day {
+    margin: 0px 0px;
+}
+
+.namePortData {
+    color: white;
+}
+
+.namePortData:hover {
+    color: blue;
+}
+
+.maindashtable {
+    background: #222429;
+    border-radius: 44px;
+    height: 50%;
+    width: 100%;
+    margin-left: -10%;
+    box-shadow: 18px 25px 34px rgb(0 0 0 / 73%), -5px -5px 26px hsl(247deg 4% 55% / 26%);
+}
+
+/* ::-webkit-scrollbar {
+    width: 8px;
+    display: visible !important;
+} */
+
+/* Track */
+/* ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+} */
+
+/* Handle */
+/* ::-webkit-scrollbar-thumb {
+    background: grey;
+    border-radius: 10px;
+} */
+
+/* Handle on hover */
+/* ::-webkit-scrollbar-thumb:hover {
+    background: darkgrey;
+} */
+
+.maindashtable .react-bootstrap-table-pagination-list.col-md-6.col-xs-6.col-sm-6.col-lg-6 {
+    display: inline-table;
+}
+
+.maindashtable .App {
+    padding: 30px;
+}
+
+canvas {
+    object-fit: none;
+    object-position: top;
+    /* padding-bottom: 0%; */
+    /* padding-bottom: 30px;   */
+}
+
+.modal-body {
+    position: relative;
+    overflow-y: auto;
+    max-height: 100%;
+    width: 100%;
+    padding: 15px;
+}
+
+.modal-dialog {
+    max-width: 1200px;
+}
+
+
+@media only screen and (min-width:0px) and (max-width: 990px) {
+    #response {
+        padding-left: 40%;
+        margin-left: -23%;
+        margin-right: 0%;
+    }
+
+    #above {
+        margin-left: -15%;
+    }
+
+    #days {
+        display: none;
+    }
+
+    #status {
+        margin-left: 3%;
+    }
+
+    #new {
+        margin-top: -24%;
+    }
+}
+
+@media only screen and (min-width:950px) {
+    #status {
+        margin-left: 10%;
+    }
+}
+
+@media only screen and (min-width:1800px) and (max-width: 4400px) {
+    .mainmyassets {
+        max-width: 1800px;
+    }
+}

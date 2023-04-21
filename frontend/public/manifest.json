@@ -1,0 +1,16 @@
+{
+  "short_name": "Upforce",
+  "name": "Upforce Web Development",
+  "description":"Web and Mobile App Development",
+  "icons": [
+    {
+      "src": "../src/assets/loginimg.png",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    }
+  ],
+  "start_url": "/?source=pwa",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

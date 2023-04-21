@@ -1,0 +1,31 @@
+.actionbtns {
+    display: flex;
+    align-items: center;
+}
+
+.actionbtns p {
+    font-size: 28px !important;
+    font-family: 'Inter', sans-serif;
+    /* font-family: 'Neue Haas Grotesk Display Pro'; */
+    margin-right: 17px !important;
+}
+
+.actionbtns a {
+    color: #e92a2a;
+    font-size: 20px;
+}
+
+.manageassets p {
+    font-size: 20px !important;
+}
+
+.manageassets table.table.table-bordered thead th:first-child {
+    width: 67%;
+}
+
+.manageassets {
+    box-shadow: 18px 25px 34px rgb(0 0 0 / 73%), -5px -5px 26px hsl(247deg 4% 55% / 26%);
+    background: #222429;
+    border-radius: 40px;
+    margin-bottom: 50px;
+}

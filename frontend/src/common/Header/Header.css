@@ -1,0 +1,41 @@
+.profile img {
+    box-shadow: -7px -4px 31px hsl(0deg 0% 100% / 12%), 7px 10px 18px hsl(0deg 0% 0% / 56%);
+    border-radius: 100%;
+}
+.profile {
+    display: flex;
+    align-items: center;
+  }
+.header_main
+{
+    
+    padding-left: 0.3rem;
+    width: 100%;
+    padding-right: 0.3rem;
+    display: grid;
+    grid-template-columns: 89% 11%;
+}
+.header_left
+{
+    width:35%;
+}
+.header_right
+{
+    display: flex;
+    gap:0.5rem;
+    width:55%;
+}
+
+
+@media only screen and (min-width:0px) and (max-width: 990px) {
+    hr {
+        width: 65%
+    }
+}
+
+@media only screen and (min-width:800px) and (max-width: 1400px) {
+    hr {
+        width: 80%;
+        margin-left: 3.5%;
+    }
+}

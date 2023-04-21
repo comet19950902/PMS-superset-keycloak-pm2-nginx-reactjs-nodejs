@@ -1,0 +1,7 @@
+.custom-form {
+    margin-bottom: 6%;
+}
+
+::-webkit-calendar-picker-indicator {
+    filter: invert();
+}

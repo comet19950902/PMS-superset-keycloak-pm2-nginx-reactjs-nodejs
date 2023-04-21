@@ -1,0 +1,10 @@
+ .active,
+ .nav-link:focus,
+ .nav-link:hover {
+     background: rgb(54 57 64 / 27%);
+     border-radius: 15px;
+     box-shadow: inset -1px 1px 9px rgb(0 0 0), inset -2px -4px 4px rgb(255 255 255 / 20%);
+     color: #FFC107;
+     width: 100%;
+     transition: all 0.5s;
+ }

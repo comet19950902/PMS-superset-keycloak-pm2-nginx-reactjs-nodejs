@@ -1,0 +1,104 @@
+table.table.table-bordered p {
+  font-size: 13px;
+}
+
+.transationdata td {
+  font-size: 15px;
+}
+
+.transationdata {
+  padding: 10px 0px;
+  border-radius: 40px;
+}
+
+/* .MuiCalendarPicker-root {
+    background-color:dimgrey;
+  } */
+.css-bkrceb-MuiButtonBase-root-MuiPickersDay-root {
+  background-color: transparent;
+}
+
+.MuiPickersDay-dayWithMargin {
+  background-color: transparent;
+}
+
+/* .MuiPickersDay-dayWithMargin {
+    color:black;
+    background-color:red;
+  } */
+/* .MuiPaper-root {
+    background-color: dimgray;
+  } */
+/* .css-1jm66jt-MuiClockPicker-root {
+      background-color: dimgray;
+  } */
+.MuiPickersModal {
+  color: white;
+  background-color: gray;
+}
+
+.transationdata select {
+  background: transparent;
+  color: white;
+  font-family: 'Inter', sans-serif;
+  /* font-family: 'Neue Haas Grotesk Display Pro'; */
+  font-size: 37px;
+  border: none;
+  margin: 30px 30px 0px;
+  font-weight: 300;
+}
+
+select.days option {
+  background: #222429;
+
+}
+
+.assets-chart-wrap h5 {
+  margin: 10px 0;
+  font-size: 19px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+.assets-chart-wrap h5 a {
+  margin-left: 10px;
+  color: #ffff;
+  opacity: 0.6;
+  transition: all 0.5s;
+}
+
+.assets-chart-wrap h5 a:hover {
+  opacity: 1;
+
+}
+
+.transationdata select:focus-visible {
+  outline: none;
+}
+
+select.days option {
+  background: #222429;
+}
+
+abel.MuiInputBase-formControl .css-nxo287-MuiInputBase-input-MuiOutlinedInput-input {
+  color: white !important;
+}
+
+.css-1sumxir-MuiFormLabel-root-MuiInputLabel-root {
+  color: white !important;
+}
+
+::placeholder {
+  color: lightgray !important;
+}
+
+.css-1yq5fb3-MuiButtonBase-root-MuiIconButton-root {
+  color: white !important;
+}
+
+.css-nxo287-MuiInputBase-input-MuiOutlinedInput-input {
+  color: white !important;
+}

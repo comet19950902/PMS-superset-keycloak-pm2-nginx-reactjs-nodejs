@@ -1,0 +1,195 @@
+.mainmyassets {
+  background: #1f2125;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* .tablet::-webkit-scrollbar {
+  width: 8px;
+  display: visible;
+} */
+
+/* Track */
+ ::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+} 
+.modal::-webkit-scrollbar {
+  width: 4px;
+  display: none;
+  height: 4px;
+}
+.react-bootstrap-table::-webkit-scrollbar {
+  overflow-y: auto;
+  overflow-x: auto;
+  height: 6px;
+  width: 6px;
+  display: scroll;
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+.transaction::-webkit-scrollbar {
+  overflow-y: auto;
+  overflow-x: auto;
+  height: 6px;
+  width: 6px;
+  display: scroll;
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+  padding-bottom: 1em;
+}
+.transaction-wallet::-webkit-scrollbar {
+  overflow-y: auto;
+  overflow-x: auto;
+  height: 6px;
+  width: 6px;
+  display: scroll;
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+.admin-scroll{
+  height: 100vh;
+  overflow:scroll;
+}
+.admin-scroll::-webkit-scrollbar{
+  overflow-y: auto;
+  overflow-x: auto;
+  height: 6px;
+  width: 0px;
+  display: scroll;
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+.vh-100::-webkit-scrollbar {
+  overflow-y: auto;
+  overflow-x: auto;
+  height: 6px;
+  width: 6px;
+  display: scroll;
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+.wallet-table::-webkit-scrollbar {
+  overflow-y: auto;
+  overflow-x: auto;
+  height: 6px;
+  width: 6px;
+  display: scroll;
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+.invest_scroll::-webkit-scrollbar{
+    overflow-y: auto;
+    overflow-x: auto;
+    height: 6px;
+    width: 6px;
+    display: scroll;
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+}
+ ::-webkit-scrollbar-thumb {
+  background: grey;
+  border-radius: 10px;
+} 
+
+/* Handle on hover */
+ ::-webkit-scrollbar-thumb:hover {
+  background: darkgrey;
+} 
+
+.datatable {
+  margin-left: 4%;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 25px 70px 25px 0px;
+}
+
+
+
+.date p {
+  margin: 0;
+  font-size: 20px;
+  color: white;
+  font-family: 'Inter', sans-serif;
+  /* font-family: "Neue Haas Grotesk Display Pro"; */
+  font-weight: 500;
+}
+
+.MuiGrid-root.MuiGrid-item.MuiGrid-grid-lg-10.css-1twj35c-MuiGrid-root {
+  padding: 0;
+}
+
+.profile span {
+  color: white;
+  font-size: 20px;
+  font-family: 'Inter', sans-serif;
+  /* font-family: "Neue Haas Grotesk Display Pro"; */
+  display: block;
+  font-weight: 500;
+}
+
+
+
+.heading {
+  display: flex;
+  align-items: center;
+  margin: 57px 0px;
+}
+
+.datatable {
+  margin: 0 60px;
+}
+
+.heading h3 {
+  margin: 0;
+  font-size: 26px;
+  color: white;
+  font-family: 'Inter', sans-serif;
+  /* font-family: "Neue Haas Grotesk Display Pro"; */
+  font-weight: 300;
+}
+
+.heading select {
+  background: hsl(218deg 9% 18% / 67%);
+  color: white;
+  border: none;
+  width: 100px;
+  height: 41px;
+  font-size: 15px;
+  font-weight: 500;
+  border-radius: 18px;
+  margin-top: -4%;
+  transition: all 0.5s;
+  box-shadow: 7px 10px 18px hwb(0deg 0% 100% / 56%), -7px -4px 31px hsl(0deg 0% 100% / 12%), 0 3px 6px hsl(0deg 0% 0% / 16%);
+}
+
+.heading select:focus {
+  box-shadow: none;
+  transition: all 0.5s;
+}
+
+.datatable {
+  margin: 0 70px 50px;
+}
+
+.name-assets span {
+  width: 1.5vh;
+  height: 1.5vh;
+  display: block;
+  border-radius: 100%;
+  /* margin-right:12%; */
+  margin-top: 6.5%;
+  position: relative;
+  background: #e92a2a;
+  box-shadow: 0 0 0 4px #222429, 0 0 0 7px #e92a2a;
+}
+
+.name-assets {
+  display: flex;
+  align-items: center;
+}
+
